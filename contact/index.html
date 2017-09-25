@@ -1,0 +1,90 @@
+---
+layout: default
+---
+
+<div class="content-container contact">
+  <div class="inner-page-banr">
+  	<div class="container">
+      	<h2>Contact <span>TAPPS</span></h2>
+      </div>
+  </div>
+  
+  <div class="inner-sections">
+  	<div class="container">
+      	<div class="tab-div">
+          	<ul class="tab-list">
+              	<li class="show-desk show-tab"><a href="/contact/requestService.html">Request Service</a></li>
+              	<li class="active"><a href="/contact/">Contact Us</a></li>
+                  <li class="show-desk show-tab"><a href="/contact/outsideLasVegas.html">"Taps" outside Las Vegas</a></li>
+              </ul>
+              <div class="main-cont">
+              	<div class="top-sec">
+                      <img src="/assets/images/contact-icon.png" alt="image" class="contact-icon">
+                  	<h4>Contact TAPPS</h4>
+                      <p>Have a question, comment or feedback. We'd love to hear from you!<br>
+  Just contact our customer care department via email or phone.</p>
+                  </div>
+                  <h4 class="tab-head">Contact Form</h4>
+                  <form class="frm-cont" action="/contact/contactForm.html" accept-charset="utf-8" method="post">
+                      <input type="hidden" name="_token" value="Ixgiop8FTsgvwqXY9q82rmxYUHZB0NjVaHSJzRHn">
+  					<div class="frm-elements">
+                          <label>Primary Contact Phone</label>
+                          <div class="input-box">
+                              <img src="/assets/images/frm1.jpg" alt="icon" class="fldicon">
+                              <input value="" type="text" name="name" class="field-all" placeholder="Primary Contact Name">
+                          </div>
+                      </div>
+  
+                      <div class="frm-elements">
+                          <label>Primary Contact Phone</label>
+                          <div class="input-box">
+                              <img src="/assets/images/frm2.jpg" alt="icon" class="fldicon">
+                              <input value="" type="text" name="phone" class="field-all" placeholder="XXX-XXX-XXXX">
+                          </div>
+                      </div>
+  
+                      <div class="frm-elements">
+                          <label>Email</label>
+                          <div class="input-box">
+                              <img src="/assets/images/frm3.jpg" alt="icon" class="fldicon">
+                              <input value="" type="email" name="email" class="field-all" placeholder="bob@example.com">
+                          </div>
+                      </div>
+  
+                      <div class="frm-elements">
+                          <label>Comments</label>
+                          <div class="input-box">
+                              <img src="/assets/images/frm4.jpg" alt="icon" class="fldicon">
+                              <input value="" type="text" name="comments" class="field-all" placeholder="Your Comments here">
+                          </div>
+                      </div>
+  
+                      <input type="image" src="/assets/images/sub-btn.png" class="sub-btn">
+                  </form>
+                  <div class="clearall"></div>
+                  <ul class="cont-ul">
+                  	<li>
+                      	<span>Like us on:</span><br>
+                          <div class="social-icon">
+<!--                           	<a href="https://www.facebook.com/TAPPSNevada" target="_blank"><img src="/assets/images/insta.jpg" alt="icon" class="insta"></a> -->
+                              <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><img src="/assets/images/twitter.jpg" alt="icon" class="twitter"></a>
+                              <a href="https://www.facebook.com/{{ site.fb_username }}" target="_blank"><img src="/assets/images/facebook.jpg" alt="icon" class="insta"></a>
+                          </div>
+                      </li>
+                  </ul>
+                  <ul class="cont-ul2">
+                  	<li>
+                      	<span>Email:</span><br>
+                          {{ site.email }}<br>
+                      </li>
+                      
+                  </ul>
+              </div>
+         	</div>
+          <ul class="li-mob show-mob">
+          	<li><a href="/contact/requestService.html">Request Service</a></li>
+              <li><a href="/contact/outsideLasVegas.html">"Taps" outside Las Vegas</a></li>
+          </ul>
+      </div>
+  </div>
+</div>

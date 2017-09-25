@@ -1,0 +1,14 @@
+---
+layout: html
+---
+<body>
+  <div class="alert-container"></div>
+  {{ content }}
+  
+  <script type="text/javascript" src="/assets/js/main.js"></script>
+  {% if page.sheetrock_js %}
+    {{ page.sheetrock_js }}
+  {% elsif layout.sheetrock_js %}
+    {{ layout.sheetrock_js }}
+  {% endif %}
+</body>
