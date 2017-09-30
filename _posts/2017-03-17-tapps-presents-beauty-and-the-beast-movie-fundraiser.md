@@ -1,5 +1,5 @@
 ---
-layout: press
+layout: post
 title: "TAPPS PRESENTS &quot;BEAUTY AND THE BEAST&quot; MOVIE FUNDRAISER"
 date: 2017-03-16 11:59:59 -0800
 ---

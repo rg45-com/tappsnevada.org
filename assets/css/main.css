@@ -42,6 +42,9 @@ li {
 * {
     box-sizing: border-box;
 }
+.hidden {
+  display: none;
+}
 .clearall {
     clear: both;
     font-size: 1px;
@@ -2739,7 +2742,6 @@ ul.mobimenu li a.sign_in {
 .alert {
     padding: 10px 0;
     color: #fff;
-    font-size: 12px;
 }
 .alert li {
     padding-bottom: 5px;

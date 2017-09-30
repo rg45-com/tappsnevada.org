@@ -28,19 +28,7 @@ layout: default
                       <p class="donate-p3">A reoccurring $6.00 per month donation will allow us to honor One Veteran Per Year.</p>
                   </div>
                   <div class="don-bx-right">
-                  	<div class="form-box">
-                          <div class="frm-heading">
-                              <h4 class="banr-p3"><img src="/assets/images/note.png" class="note" alt="note"> join our email list</h4>
-                          </div>
-                          <div class="form-body">
-                              <form method="post" action="https://tappsnevada.org/contact/subscribeEmailList">
-                                  <input type="hidden" name="_token" value="qffZvcl22JA6EkMc2pP2ApKpxN958bhQ3yKmgAYX">
-                                  <input type="email" name="email" placeholder="Your Email Address" class="in-sty">
-                                  <input type="text" name="name" placeholder="Your Name" class="in-sty">
-                                  <input type="image" src="/assets/images/signup.png" class="sign-up">
-                              </form>
-                          </div>
-              		</div>
+                  	{% include email-list-form.html %}
                   </div>
               </div>
           </div>

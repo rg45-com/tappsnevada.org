@@ -1,5 +1,5 @@
 ---
-layout: press
+layout: post
 title: "TAPPS PRESENTS &quot;ROGUE ONE: A STAR WARS STORY&quot; MOVIE FUNDRAISER"
 date: 2017-03-16 11:59:59 -0800
 ---
