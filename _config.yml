@@ -13,7 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: T.A.P.P.S. Nevada
+title: "Taps for Veteran Funerals"
+title_end: " | TAPPS Nevada"
 email: tappsnevadacalendar@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   We perform "Taps" at military funerals and other patriotic events throughout the Las Vegas valley. Our organization gives back one last time to those who chose to serve our nation in the United States military.

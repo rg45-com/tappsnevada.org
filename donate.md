@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Donate & help honor Veterans with live Taps"
 ---
 
 <div class="content-container donate">

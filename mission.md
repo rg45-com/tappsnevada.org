@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Our Mission: Live Taps at Veterans' Funerals"
 ---
 
 <div class="content-container mission">

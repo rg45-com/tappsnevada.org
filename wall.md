@@ -32,6 +32,7 @@ sheetrock_js: >
 
   </style>
 layout: default
+title: "Memorial Wall for Veterans Honored with Taps"
 ---
 
 <div class="content-container wall">
