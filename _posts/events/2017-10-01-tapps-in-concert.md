@@ -6,25 +6,25 @@ date: '2017-10-01 11:59:59 -0800'
 event_date: '2017-11-12 14:00:00 -0800'
 thumbnail: trumpet_concert.jpg
 ---
-<p>COME CELEBRATE OUR VETERANS WITH US</p>
+## COME CELEBRATE OUR VETERANS WITH US
 
-<p>Last year's concert featured some of the best Las Vegas has to offer including stars of Las Vegas Showstoppers, The Phat Pack, Santa Fe and more! Come see what we have in store this year!</p>
+Last year's concert featured some of the best Las Vegas has to offer including stars of Las Vegas Showstoppers, The Phat Pack, Santa Fe and more! Come see what we have in store this year!
 
-<p>TAPPS' mission is to provide live, professional quality trumpeters to perform 'Taps' at military funerals and other patriotic services. This concert helped us to honor nearly 70 veterans during 2017. Many more need your help!</p>
+TAPPS' mission is to provide live, professional quality trumpeters to perform 'Taps' at military funerals and other patriotic services. This concert helped us to honor nearly 70 veterans during 2017. Many more need your help!
 
-<strong>When?  Details!!!!</strong>
+**When?  Details!!!!**
 
-<p>Mark it in your calendar!  {{ page.event_date | date: "%b %-d, %Y" }} at 2pm, we want you to join us in a concert to celebrate our veterans, hear amazing music and support a great cause.</p>
+Mark it in your calendar!  November 12th, 2017 at 2pm, we want you to join us in a concert to celebrate our veterans, hear amazing music and support a great cause.
 
-<p>Join us at Community Lutheran Church located at<br>
-3720 E Tropicana Rd, Las Vegas, NV 89121</p>
+Join us at Community Lutheran Church located at<br>
+3720 E Tropicana Rd, Las Vegas, NV 89121
 
-<strong>What's it cost?</strong>
+**What's it cost?**
 
-<p>Nothing.  Donations are accepted at the door.  Anything you can give is appreciated.</p>
+Nothing.  Donations are accepted at the door.  Anything you can give is appreciated.
 
-<strong>Can't make it?</strong>
+**Can't make it?**
 
-<p>Please visit us at www.tappsnevada.org and find out how you can help to honor our veterans.</p>
+Please visit us at [www.tappsnevada.org](https://www.tappsnevada.org) and find out how you can help to honor our veterans.
 
-<p>Can't wait to see you there and thanks for being part of our TAPPS family!</p>
+Can't wait to see you there and thanks for being part of our TAPPS family!
