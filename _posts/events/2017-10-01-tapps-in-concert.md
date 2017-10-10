@@ -1,13 +1,12 @@
 ---
 layout: event
 category: events
-title: "TAPPS IN CONCERT!"
-date: 2017-10-01 11:59:59 -0800
-event_date: 2017-11-12 14:00:00 -0800
-thumbnail: "trumpet_concert.jpg"
+title: TAPPS IN CONCERT!
+date: '2017-10-01 11:59:59 -0800'
+event_date: '2017-11-12 14:00:00 -0800'
+thumbnail: trumpet_concert.jpg
 ---
-
-<p>COME CELEBRATE OUR VETERANS WITH US!!!</p>
+<p>COME CELEBRATE OUR VETERANS WITH US</p>
 
 <p>Last year's concert featured some of the best Las Vegas has to offer including stars of Las Vegas Showstoppers, The Phat Pack, Santa Fe and more! Come see what we have in store this year!</p>
 
