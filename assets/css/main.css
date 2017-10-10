@@ -37,14 +37,21 @@ article.post {
   text-align: left;
   padding: 10px 15px;
 }
-article.post h2{
+article.post h1{
   font-size: 3em;
+  font-weight: bold;
 }
 article.post h2{
-  font-size: 2.2em;
+  font-size: 1.8em;
 }
 .post-content {
   font-size: 13pt;
+}
+.post-content p{
+  padding-bottom: 10px;
+}
+.post-meta {
+  padding-bottom: 15px;
 }
 .post-meta time {
   font-size: 11pt;
