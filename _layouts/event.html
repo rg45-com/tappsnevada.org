@@ -5,16 +5,16 @@ layout: default
 <div class="content-container press">
   <div class="inner-page-banr">
   	<div class="container">
-     	<h2><span>TAPPS in the </span>Press</h2>
+     	<h1><span>TAPPS in the</span> Community</h1>
     </div>
   </div>
   <div class="inner-sections">
   	<div class="container">
     	<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-        <h1 itemprop="name headline">{{ page.title | escape }}</h1>
+        <h2 itemprop="name headline">{{ page.title | escape }}</h2>
         <p class="post-meta">
           <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-            {{ page.date | date: "%b %-d, %Y" }}
+           Posted: {{ page.date | date: "%b %-d, %Y" }}
           </time>
         </p>
         <div class="post-content" itemprop="articleBody">

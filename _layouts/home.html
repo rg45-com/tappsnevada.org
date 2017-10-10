@@ -106,21 +106,49 @@ layout: default
   <div class="clearall"></div>
   <div class="sec2">
   	<div class="container">
-      	<div class="sec2-bx1" style="padding-top: 70px; background: url('/assets/public/TbrJ10zpr7p1DAvu11CWdRL463G450nq1LPYKTRl.jpeg'); background-size: 100%;">
+      	<div class="sec2-bx1">
           	<div class="top-part">
               </div>
               <div class="inner-cont">
               	<div class="cont-1">
-                  	<p class="f22">TAPPS Upcoming Events <br><span>Saturday Apr. 01, 2017</span></p>
-                  </div>
-  
-                  <div class="cont-1">
-                  	<p>Check back here often for upcoming events</p>
-                  </div>
+                  <p class="f22">TAPPS Upcoming Events</p>
+                </div>
+                <div class="cont-1">
+                	{% for post in site.categories['events'] limit:1 %}
+                      <div class="index_post">
+                          <a href="{{ post.url }}">
+                            <p class="title">{{ post.event_date | date: "%b %d, %Y" }} - {{ post.title }}</p>
+                            <div class="meta">{{ post.content | truncate:125 }}</div>
+                          </a>
+                      </div>
+                  {% endfor %}
+                </div>
+                
+                <div class="cont-1">
+                  <p class="f22">TAPPS Press Releases</p>
+                </div>
+                <div class="cont-1">
+                	{% for post in site.categories['press'] limit:2 %}
+                	  {% if forloop.last == true %}
+                        <div class="index_press_post last_post">
+                          <a href="{{ post.url }}">
+                            <p class="title">{{ post.title }}</p>
+                            <div class="meta">{{ post.content | truncate:100 }}</div>
+                          </a>
+                        </div>
+                      {% else %}
+                        <div class="index_press_post">
+                          <a href="{{ post.url }}">
+                            <p class="title">{{ post.title }}</p>
+                            <div class="meta">{{ post.content | truncate:100 }}</div>
+                          </a>
+                        </div>
+                    {% endif %}
+                  {% endfor %}
+                </div>
   
                   <div class="cont-1 no-brd">
-                  	<p>...</p>
-                      <h4><a style="color: yellow;" href="press/03-28-2017-tapps-upcoming-events.html">Read on...</a></h4>
+                      <h4><a style="color: #ffd200;" href="/press/">Read more...</a></h4>
                   </div>
   
               </div>
@@ -139,7 +167,7 @@ layout: default
           </div>
           <div class="sec2-bx3">
           	<div class="top-part">
-              	<h3>Events/Calendar</h3>
+              	<h3>Events Calendar</h3>
               </div>
               <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=491&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=tappsnevadacalendar%40gmail.com&amp;color=%2329527A&amp;ctz=America%2FLos_Angeles" style="border-width:0; margin-top:5px;" width="100%" height="491" frameborder="0" scrolling="no"></iframe>
           </div>
