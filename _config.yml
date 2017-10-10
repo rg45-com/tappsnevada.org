@@ -20,6 +20,7 @@ description: > # this means to ignore newlines until "baseurl:"
   We perform "Taps" at military funerals and other patriotic events throughout the Las Vegas valley. Our organization gives back one last time to those who chose to serve our nation in the United States military.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.tappsnevada.org" # the base hostname & protocol for your site, e.g. http://example.com
+imgurl: "/assets/images/" # the subpath for the image directory
 twitter_username: "tappsnevada"
 fb_username: "TAPPSNevada"
 #google_analytics: "set_me_up"
