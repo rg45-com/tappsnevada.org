@@ -1,10 +1,20 @@
 ---
 layout: post
 category: events
-title: "TAPPS PRESENTS &quot;ROGUE ONE: A STAR WARS STORY&quot; MOVIE FUNDRAISER"
-date: 2017-03-16 11:59:59 -0800
+title: 'TAPPS PRESENTS ROGUE ONE: A STAR WARS STORY - MOVIE FUNDRAISER'
+date: 2016-11-01T00:00:00-07:00
+event_date: 2016-12-15T20:00:00-08:00
+thumbnail: /assets/images/rogueone.jpg
 ---
+Join **Trumpeters Alliance to Perform Patriotic Services (TAPPS)** on Thursday December 15, 2016 for a movie fundraiser, featuring the new movie, “Rogue One: A Star Wars Story.” Be the first in the Las Vegas Valley to see the movie event of 2016. A portion of the ticket sales sold benefits TAPPS’ efforts to perform at veteran funerals across Southern Nevada. Tickets are $20 and we have a limited number of seats available so act fast to reserve your seat!
 
-<p><strong>Las Vegas, Nevada</strong><span style="color:rgb(56,56,56);font-family:'Open Sans', sans-serif;font-size:18px;"> - Join</span><strong> Trumpeters Alliance to Perform Patriotic Services (TAPPS)</strong><span style="color:rgb(56,56,56);font-family:'Open Sans', sans-serif;font-size:18px;"> on Thursday December 15, 2016 for a movie fundraiser, featuring the new movie, "</span><strong>Rogue One: A Star Wars Story.</strong><span style="color:rgb(56,56,56);font-family:'Open Sans', sans-serif;font-size:18px;">" Be the first in the Las Vegas Valley to see the movie event of 2016. </span><strong>A portion of the ticket sales sold benefits TAPPS’ efforts to perform at veteran funerals across Southern Nevada. Tickets are $20 and we have a limited number of seats available so act fast to reserve your seat! </strong><br /></p>
+Contact TAPPS president Larry Ransom at 702-354-3386 to purchase tickets.
 
-<p><br /><strong>Contact TAPPS president Larry Ransom at 702-354-3386 to purchase tickets.</strong><span style="color:rgb(56,56,56);font-family:'Open Sans', sans-serif;font-size:18px;"> </span><br /><br /><span style="color:rgb(56,56,56);font-family:'Open Sans', sans-serif;font-size:18px;">"</span><strong>Rogue One:</strong><span style="color:rgb(56,56,56);font-family:'Open Sans', sans-serif;font-size:18px;"> A Star Wars Story," set before the events of the original "</span><strong>Star Wars</strong><span style="color:rgb(56,56,56);font-family:'Open Sans', sans-serif;font-size:18px;">," is directed by Gareth Edwards and stars Felicity Jones, Diego Luna, and Forest Whitaker. </span><strong>The movie is produced by Lucasfilm, Ltd., and distributed by Walt Disney Pictures. </strong><br /><br /><span style="color:rgb(56,56,56);font-family:'Open Sans', sans-serif;font-size:18px;">TAPPS, Trumpeters Alliance to Perform Patriotic Services, is a 501(c)(3) charitable organization that is dedicated to performing at military funerals and other patriotic events in Southern Nevada. The primary purpose of the organization is to give back one last time to those who chose to serve their nation in the military. For more information about TAPPS, please visit www.tappsnevada.org. </span><br /><br /><strong>Media Contact </strong><br /><span style="color:rgb(56,56,56);font-family:'Open Sans', sans-serif;font-size:18px;">Nicole Cordova,</span><br /><span style="color:rgb(56,56,56);font-family:'Open Sans', sans-serif;font-size:18px;">Marketing Manager,</span><br /><span style="color:rgb(56,56,56);font-family:'Open Sans', sans-serif;font-size:18px;">702-321-2054</span><br /><span style="color:rgb(56,56,56);font-family:'Open Sans', sans-serif;font-size:18px;">NicoleLCordova@aol.com</span></p>
+**Rogue One: A Star Wars Story**,** **set before the events of the original Star Wars, is directed by Gareth Edwards and stars Felicity Jones, Diego Luna, and Forest Whitaker. The movie is produced by Lucasfilm, Ltd., and distributed by Walt Disney Pictures. 
+
+TAPPS, Trumpeters Alliance to Perform Patriotic Services, is a 501(c)(3) charitable organization that is dedicated to performing at military funerals and other patriotic events in Southern Nevada. The primary purpose of the organization is to give back one last time to those who chose to serve their nation in the military. For more information about TAPPS, please visit www.tappsnevada.org. 
+
+**Media Contact**
+Nicole Cordova, Marketing Manager
+702-321-2054
+NicoleLCordova@aol.com
