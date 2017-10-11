@@ -10,11 +10,14 @@ Join **Trumpeters Alliance to Perform Patriotic Services (TAPPS)** on Thursday
 
 Contact TAPPS president Larry Ransom at 702-354-3386 to purchase tickets.
 
-**Rogue One: A Star Wars Story**,** **set before the events of the original Star Wars, is directed by Gareth Edwards and stars Felicity Jones, Diego Luna, and Forest Whitaker. The movie is produced by Lucasfilm, Ltd., and distributed by Walt Disney Pictures. 
+**Rogue One: A Star Wars Story**, set before the events of the original Star Wars, is directed by Gareth Edwards and stars Felicity Jones, Diego Luna, and Forest Whitaker. The movie is produced by Lucasfilm, Ltd., and distributed by Walt Disney Pictures. 
 
 TAPPS, Trumpeters Alliance to Perform Patriotic Services, is a 501(c)(3) charitable organization that is dedicated to performing at military funerals and other patriotic events in Southern Nevada. The primary purpose of the organization is to give back one last time to those who chose to serve their nation in the military. For more information about TAPPS, please visit www.tappsnevada.org. 
 
 **Media Contact**
+
 Nicole Cordova, Marketing Manager
+
 702-321-2054
+
 NicoleLCordova@aol.com

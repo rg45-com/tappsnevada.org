@@ -14,12 +14,12 @@ layout: default
         <h1 itemprop="name headline">{{ page.title }}</h1>
         <p class="post-meta">
           <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-           Posted: {{ page.date | date: "%B %-d, %Y" }}
+           {{ page.date | date: "%B %-d, %Y" }}
           </time>
         </p>
         <div class="post-content" itemprop="articleBody">
           {% if page.thumbnail %}
-            <div class="post-img"><img src="{{ site.imgurl }}{{ page.thumbnail }}" class="img-responsive"></div>
+            <div class="post-img"><img src="{{ page.thumbnail }}" class="img-responsive"></div>
           {% endif %}
           {{ content }}
         </div>

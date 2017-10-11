@@ -4,7 +4,7 @@ category: events
 title: TAPPS IN CONCERT!
 date: '2017-10-01 11:59:59 -0800'
 event_date: '2017-11-12 14:00:00 -0800'
-thumbnail: trumpet_concert.jpg
+thumbnail: /assets/images/trumpet_concert.jpg
 ---
 ## COME CELEBRATE OUR VETERANS WITH US!
 
