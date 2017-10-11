@@ -1,8 +1,10 @@
 ---
 layout: post
-category: press
+category: events
 title: "TAPPS PRESENTS &quot;BEAUTY AND THE BEAST&quot; MOVIE FUNDRAISER"
-date: 2017-03-16 11:59:59 -0800
+date: '2017-03-16 11:59:59 -0800'
+event_date: '2017-03-18 14:00:00 -0800'
+thumbnail: 'beauty_beast.jpg'
 ---
 
 <p>Join Trumpeters Alliance to Perform Patriotic Services (TAPPS) on Saturday, March 18th, 2017 at 2:00pm for our movie fundraiser series, featuring the new movie, “Beauty and the Beast” at AMC Rainbow at 2321 N Rainbow Blvd, Las Vegas, NV 89108. Be the first in the Las Vegas Valley to see one of the most anticipated movies of 2017 and support a great organization.</p>

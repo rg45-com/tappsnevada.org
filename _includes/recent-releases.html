@@ -1,21 +1,22 @@
-
-  <a href="{% post_url 2017-03-17-tapps-presents-beauty-and-the-beast-movie-fundraiser %}">
-    <div class="pls-preview" style="background: url('/assets/public/7HB8tYsW9QCoPCY8zUeEAkEWwLXEhdTjGLnjz7X1.jpeg')"></div>
-  </a>
-  <div class="pls-txt-rgt">
-    <a href="{% post_url 2017-03-17-tapps-presents-beauty-and-the-beast-movie-fundraiser %}"><h5>TAPPS PRESENTS &quot;BEAUTY AND THE BEAST&quot; MOVIE FUNDRAISER</h5></a>
-    <span>Contact TAPPS president Larry Ransom at 702-354-3386 to purchase tickets.</span>
-    <p>?Join Trumpeters Alliance to Perform Patriotic Services (TAPPS) on Saturday, March 18th, 2017 at 2:00pm for our movie fundraiser series, featuring the new movie, ?Beauty and...<br>
-    <a href="{% post_url 2017-03-17-tapps-presents-beauty-and-the-beast-movie-fundraiser %}">Read on...</a></p>
-  </div>
-</div>
-<div class="expand-box">
-  <a href="{% post_url 2017-03-16-tapps-presents-rogue-one-a-star-wars-story-movie-fundraiser %}">
-    <div class="pls-preview" style="background: url('/assets/public/h6XE4dMEeNYXivU2PPyb8LcV51vTzzsgTtQjIHU0.jpeg')"></div>
-  </a>
-  <div class="pls-txt-rgt">
-    <a href="{% post_url 2017-03-16-tapps-presents-rogue-one-a-star-wars-story-movie-fundraiser %}"><h5>TAPPS PRESENTS &quot;ROGUE ONE: A STAR WARS STORY&quot; MOVIE FUNDRAISER</h5></a>
-    <span>Contact TAPPS president Larry Ransom at 702-354-3386 to purchase tickets.</span>
-    <p>?Las Vegas, Nevada ? Join Trumpeters Alliance to Perform Patriotic Services (TAPPS) on Thursday December 15, 2016 for a movie fundraiser, featuring the new movie, &quot;Rogue...<br>
-    <a href="{% post_url 2017-03-16-tapps-presents-rogue-one-a-star-wars-story-movie-fundraiser %}">Read on...</a></p>
-  </div>
+<div class="bdr-heading"><span>RECENT RELEASES</span></div>
+{% for post in site.posts limit: 5 %}
+  {% if post.title == page.title %}
+    {% continue %}
+  {% else %}
+     <div class="expand-box"> 
+      <div class="row"> 
+        <div class="col-sm-3">
+          {% if post.thumbnail %}
+            <a href="{{ post.url }}"><img src="{{ site.imgurl }}{{ post.thumbnail }}" class="img-responsive recent-thumb"></a>
+          {% endif %}
+        </div>
+        <div class="col-sm-9">
+          <div class="pls-txt-rgt">
+            <a href="{{ post.url }}"><h5>{{ post.title }}</h5></a>
+             <p>{{ post.content | remove: "##" | strip_html | truncate:200 }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}

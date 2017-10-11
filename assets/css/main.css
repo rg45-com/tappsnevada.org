@@ -19,6 +19,7 @@ body {
     text-align: center;
     font-family: Lato, sans-serif;
     font-weight: 400;
+    font-size: 16px;
 }
 div, form, h1, h2, h3, h4, h5, img, input, li, p, textarea, ul {
     margin: 0;
@@ -47,8 +48,15 @@ article.post h2{
 .post-content {
   font-size: 13pt;
 }
-.post-content p{
+.post-content p {
   padding-bottom: 10px;
+}
+.post-content img {
+  padding: 0px 10px 10px;
+}
+.post-img {
+  float:right;
+  max-width: 500px;
 }
 .post-meta {
   padding-bottom: 15px;
@@ -385,7 +393,7 @@ footer ul li {
     padding: 57px 0 25px 100px;
 }
 }@media only screen and (max-width:767px) {
-    .container {
+ .container {
     width: 100%;
     max-width: 580px;
     padding: 0 2%}
@@ -447,6 +455,9 @@ footer ul li {
 }
 .top-bx-inner {
     font-size: 16px;
+}
+.recent-thumb {
+  padding-bottom: 10px;
 }
 }@media only screen and (max-width:425px) {
     .inner-page-banr h2 {
@@ -827,6 +838,18 @@ div.content-container.index .banr-p2 {
     font-family: 'Open Sans', sans-serif;
     padding-top: 10px;
 }
+div.content-container.index .banr-p4 {
+    float: left;
+    width: 100%;
+    color: grey;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
 div.content-container.index .btn-cls {
     float: left;
     padding: 73px 0 0 30px;
@@ -1016,6 +1039,7 @@ div.content-container.index .cont-1 .index_post p.title, div.content-container.i
 }
 div.content-container.index .cont-1 .index_post div.meta p, div.content-container.index .cont-1 .index_press_post div.meta p {
     font-size: 15px;
+    color: white;
 }
 div.content-container.index .cont-1 .index_press_post {
     padding-bottom: 15px;

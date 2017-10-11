@@ -14,7 +14,7 @@ title: "Our Mission: Live Taps at Veterans' Funerals"
       	<div class="top-icon-box">
           	<center><img src="/assets/images/header-top.png" class="header-icon"></center>
           	<div class="top-bx-inner">
-              	<span>TAPPS</span> was <span>founded</span> on <span>January 3, 2014</span> to fill a need in the Las Vegas area to have a live performance of "Taps" at Veteran's Funerals. Southern Nevada is home to one of the largest Veteran Populations in the country. Our Founders, Trumpeters, TAPPS Board, and volunteers are committed to honouring our Veterans and their families with each performance of "Taps".
+              	<span>TAPPS</span> was <span>founded</span> on <span>January 3, 2014</span> to fill a need in the Las Vegas area to have a live performance of "Taps" at Veteran's Funerals. Southern Nevada is home to one of the largest Veteran Populations in the country. Our Founders, Trumpeters, TAPPS Board, and volunteers are committed to honoring our Veterans and their families with each performance of "Taps".
               </div>
           </div>
           <h4 class="innerHeadingd btmBorder">FOUNDERS</h4>

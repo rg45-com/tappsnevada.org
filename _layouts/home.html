@@ -26,7 +26,7 @@ layout: default
   	<div class="container">
       	<div class="banr-left">
           	<h2 class="banr-p1">Trumpeters Alliance to Perform Patriotic Services</h2>
-              <p class="banr-p2">Serving those who have served our country</p>
+              <p class="banr-p2">The mission of TAPPS is to perform "Taps" at military funerals and other patriotic events throughout the Las Vegas valley.</p>
               <div class="btn-cls">
               	<a href="mission.html">
                   	<img src="/assets/images/learn-btn.png" class="learn-btn" alt="learn-btn">
@@ -79,8 +79,9 @@ layout: default
   	<div class="container">
       	<div class="sec1-left">
           	<h4 class="sec1-p1">Welcome to <span>T.A.P.P.S.</span></h4>
+          	<p class="banr-p4">Serving those who have served our country</p>
               <img src="/assets/images/music.jpg" class="music" alt="music">
-              <p class="sec1-p2">The mission of TAPPS. (Trumpeters Alliance to Perform Patriotic Services) is to perform "Taps" at military funerals and other patriotic events throughout the Las Vegas valley. The primary purpose of this organization is to give back one last time to those who chose to serve our nation in the United States military.</p>
+              <p class="sec1-p2">The primary purpose of this organization is to give back one last time to those who chose to serve our nation in the United States military by performing "Taps" live at military veteran funerals and services.  Our Founders, Trumpeters, TAPPS Board, and volunteers are committed to honoring our Veterans and their families with each performance of "Taps".</p>
           </div>
           <div class="sec1-right">
               <div class="video">
@@ -111,14 +112,14 @@ layout: default
               </div>
               <div class="inner-cont">
               	<div class="cont-1">
-                  <p class="f22">TAPPS Upcoming Events</p>
+                  <p class="f22">TAPPS Events</p>
                 </div>
                 <div class="cont-1">
                 	{% for post in site.categories['events'] limit:1 %}
                       <div class="index_post">
                           <a href="{{ post.url }}">
                             <p class="title">{{ post.event_date | date: "%b %d, %Y" }} - {{ post.title }}</p>
-                            <div class="meta">{{ post.content | truncate:125 }}</div>
+                            <div class="meta"><p>{{ post.content | truncate:125 | strip_html | remove: "##" }}</p></div>
                           </a>
                       </div>
                   {% endfor %}
