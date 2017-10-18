@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: github
   repo: rg45-com/tappsnevada.org # Path to your Github repository
   branch: master # Branch to update
   
