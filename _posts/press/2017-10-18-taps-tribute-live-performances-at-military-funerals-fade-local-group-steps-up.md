@@ -1,12 +1,19 @@
 ---
 layout: post
 category: press
-title: >-
-  TAPS TRIBUTE | Live performances at military funerals fade, local group steps
-  up
+title: TAPS TRIBUTE | Live performances at military funerals fade, local group steps up
 date: 2017-10-18T22:09:03.885Z
-thumbnail: /assets/images/tapps_news3_feature_20170414.jpg
+thumbnail: null
 ---
+
+<div>
+  <video width="100%" controls poster="/assets/images/tapps_news3_feature_20170414.jpg">
+    <source src="/assets/video/20170414_news3_720.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+  </video>
+</div>
+<small>Originally published Friday, April 14th 2017 by Nathan O'Neal | </small>
+
 LAS VEGAS (KSNV News3LV) —The playing of Taps at military funerals is the final salute to America's bravest. However, the number of trained musicians capable of performing the tribute is dwindling across the country – but now, a group of professional musicians in Las Vegas is bridging the musical gap.
 
 The non-profit organization appropriately named TAPPS (Trumpeters Alliance to Perform Patriotic Services) perform graveside services all over Southern Nevada at no cost to the families.
@@ -33,6 +40,5 @@ However, through Taylor's lifetime of music, it's her father's final tribute thr
 
 "I think he would be inwardly just so proud and I think the sun will shine today ... because it will be my father knowing somehow that this is happening for him and he deserved it," said Taylor, adding, "All of them deserved it."
 
-Originally published Friday, April 14th 2017 by Nathan O'Neal
 
 <http://news3lv.com/news/local/taps-tribute-live-performances-at-military-funerals-fade-local-group-steps-up>
