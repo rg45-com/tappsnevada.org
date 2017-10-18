@@ -7,9 +7,12 @@ layout: html
   
   <script type="text/javascript" src="/assets/js/main.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  {% if page.sheetrock_js %}
+  {%- if page.sheetrock_js -%}
     {{ page.sheetrock_js }}
-  {% elsif layout.sheetrock_js %}
+  {%- elsif layout.sheetrock_js -%}
     {{ layout.sheetrock_js }}
-  {% endif %}
-</body>
+  {%- endif -%}
+  {%- if layout.identity_js -%}
+    {{ layout.identity_js }}
+  {%- endif -%}
+  </body>

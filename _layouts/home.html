@@ -1,6 +1,7 @@
 ---
 sheetrock_js: >
   <!-- Load Handlebars.js from CloudFlare's CDN. -->
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
   
   <script src="/assets/js/plugins/sheetrock/sheetrock.min.js"></script>
@@ -17,6 +18,20 @@ sheetrock_js: >
     labels: ['NAMES', 'ID'],
     rowHandler: wallTemplate
   });
+  </script>
+identity_js: >
+  <!-- Redirect to CMS if applicable -->
+  
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
   </script>
 layout: default
 ---
