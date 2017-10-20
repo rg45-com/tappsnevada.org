@@ -132,13 +132,22 @@ layout: default
                   <p class="f22">TAPPS Events</p>
                 </div>
                 <div class="cont-1">
-                	{% for post in site.categories['events'] limit:1 %}
-                      <div class="index_post">
-                          <a href="{{ post.url }}">
-                            <p class="title">{{ post.event_date | date: "%b %d, %Y" }} - {{ post.title }}</p>
-                            <div class="meta"><p>{{ post.content | truncate:125 | strip_html | remove: "##" }}</p></div>
-                          </a>
+                	{% for post in site.categories['events'] limit:2 %}
+                    {% if forloop.last == true %}
+                      <div class="index_press_post last_post">
+                        <a href="{{ post.url }}">
+                          <p class="title">{{ post.event_date | date: "%b %d, %Y" }} - {{ post.title }}</p>
+                          <div class="meta"><p>{{ post.content | truncate:100 | strip_html | remove: "##" }}</p></div>
+                        </a>
                       </div>
+                    {% else %}
+                      <div class="index_press_post">
+                        <a href="{{ post.url }}">
+                          <p class="title">{{ post.event_date | date: "%b %d, %Y" }} - {{ post.title }}</p>
+                          <div class="meta"><p>{{ post.content | truncate:100 | strip_html | remove: "##" }}</p></div>
+                        </a>
+                      </div>
+                    {% endif %}
                   {% endfor %}
                 </div>
                 
@@ -146,19 +155,19 @@ layout: default
                   <p class="f22">TAPPS Press Releases</p>
                 </div>
                 <div class="cont-1">
-                	{% for post in site.categories['press'] limit:2 %}
+                	{% for post in site.categories['press'] limit:1 %}
                 	  {% if forloop.last == true %}
                         <div class="index_press_post last_post">
                           <a href="{{ post.url }}">
-                            <p class="title">{{ post.title }}</p>
-                            <div class="meta">{{ post.content | truncate:100 }}</div>
+                            <p class="title">{{ post.title | truncate:70 }}</p>
+                            <div class="meta"><p>{{ post.content | strip_html | truncate:100 }}</p></div>
                           </a>
                         </div>
                       {% else %}
                         <div class="index_press_post">
                           <a href="{{ post.url }}">
-                            <p class="title">{{ post.title }}</p>
-                            <div class="meta">{{ post.content | truncate:100 }}</div>
+                            <p class="title">{{ post.title | truncate:70 }}</p>
+                            <div class="meta"><p>{{ post.content | strip_html | truncate:100 }}</p></div>
                           </a>
                         </div>
                     {% endif %}
