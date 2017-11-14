@@ -23,7 +23,7 @@ url: "https://www.tappsnevada.org" # the base hostname & protocol for your site,
 imgurl: "/assets/images/" # the subpath for the image directory
 twitter_username: "tappsnevada"
 fb_username: "TAPPSNevada"
-#google_analytics: "set_me_up"
+google_analytics: "UA-109686984-1"
 
 # Build settings
 markdown: kramdown
