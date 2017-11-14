@@ -36,6 +36,12 @@ title: "Donate & help honor Veterans with live Taps"
       </div>
   </div>
   
+  
+  <div class="clearall"></div>
+  {% include sky-strip.html %}
+  <div class="clearall"></div>
+  
+<!--
   <div class="sky-strip">
   	<div class="container">
       	<div class="seal-div">
@@ -48,6 +54,7 @@ title: "Donate & help honor Veterans with live Taps"
           <form class="sky-donate-btn" name="PrePage" method="post" action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx"><input type="hidden" name="LinkId" value="e4819acd-b6eb-4f6d-97d6-ca9e2736b685"/><input type="image" src="/assets/images/sky-donate-btn.png"/></form>
       </div>
   </div>
+-->
   
   <div class="amzon-sec">
   	<div class="container">

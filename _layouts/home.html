@@ -45,12 +45,18 @@ layout: default
           	<h2 class="banr-p1">Trumpeters Alliance to Perform Patriotic Services</h2>
               <p class="banr-p2">The mission of TAPPS is to perform "Taps" at military funerals and other patriotic events throughout the Las Vegas valley.</p>
               <div class="btn-cls">
-              	<a href="mission.html">
-                  	<img src="/assets/images/learn-btn.png" class="learn-btn" alt="learn-btn">
+              	<div class="sub-btn-cls sub-btn-cls1">
+                	<a href="mission.html" class="btn btn-lg btn-block btn-default learn-btn">LEARN MORE
+<!--                   	<img src="/assets/images/learn-btn.png" class="learn-btn" alt="learn-btn"> -->
                   </a>
-                  <form class="donate-btn" name="PrePage" method="post" action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx"><input type="hidden" name="LinkId" value="e4819acd-b6eb-4f6d-97d6-ca9e2736b685"/>
-                      <input type="image" src="/assets/images/donate-btn.png"/>
+                </div>
+                  <div class="sub-btn-cls sub-btn-cls2">
+                    <form name="PrePage" method="post" action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx">
+                    <input type="hidden" name="LinkId" value="e4819acd-b6eb-4f6d-97d6-ca9e2736b685"/>
+<!--                       <input type="image" src="/assets/images/donate-btn.png"/> -->
+                    <input class="btn btn-lg btn-block donate-btn" type="submit" name="donate_btn" value="DONATE NOW">
                   </form>
+                </div>
               </div>
           </div>
           <div class="banr-right">
@@ -109,18 +115,7 @@ layout: default
       </div>
   </div>
   <div class="clearall"></div>
-  <div class="sky-strip">
-  	<div class="container">
-      	<div class="seal-div">
-          	<p>$6.00<span>/month</span></p>
-          </div>
-          <div class="sky-text">
-          	<h4>A $6.00 a month donation</h4>
-              <p>allows us to honor 1 veteran each year.</p>
-          </div>
-          <form class="sky-donate-btn" name="PrePage" method="post" action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx"><input type="hidden" name="LinkId" value="e4819acd-b6eb-4f6d-97d6-ca9e2736b685"/><input type="image" src="/assets/images/sky-donate-btn.png"/></form>
-      </div>
-  </div>
+  {% include sky-strip.html %}
   <div class="clearall"></div>
   <div class="sec2">
   	<div class="container">
