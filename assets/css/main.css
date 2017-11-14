@@ -174,6 +174,7 @@ li {
     height: 200px;
 }
 .inner-page-banr h1, .inner-page-banr h2 {
+/*     float: right; */
     color: #fff;
     font-weight: 700;
     font-size: 56px;
@@ -250,7 +251,11 @@ li {
     font-family: 'Open Sans', sans-serif;
     line-height: 26px;
 }
+.sky-text {
+    float: left;
+    width: 54.5%}
 .sky-text h4, .sky-text p {
+    float: left;
     width: 100%;
     font-family: 'Open Sans', sans-serif;
     color: #fff;
@@ -260,7 +265,7 @@ li {
 .sky-text h4 {
     font-weight: 700;
     font-size: 36px;
-    padding: 20px 0 0;
+    padding: 50px 0 0;
 }
 .sky-text p {
     font-weight: 400;
@@ -293,44 +298,6 @@ footer ul li {
     float: left;
     padding: 0 7px 0 0;
 }
-.donate-btn, .learn-btn, .sky-donate-btn {
-  font-size: 28px;
-  font-weight: 500;
-  font-family: Lato, sans-serif;
-}
-.donate-btn, .sky-donate-btn {
-  background-color: #FFD200;
-  color: black;
-}
-.donate-btn:hover, .sky-donate-btn:hover {
-  color: black;
-  background-color: #dab818;
-  border-color: #d58512;
-}
-.sub-btn-cls {
-  float:left;
-}
-.sub-btn-cls1 {
-  width: 48%;
-  margin: 0% 2% 0% 0%;
-}
-.sub-btn-cls2 {
-  width: 43%;
-  margin: 0% 5% 0% 2%
-}
-@media only screen and (max-width:1010px) and (min-width:768px) {
-  .donate-btn, .learn-btn {
-  font-size: 24px;
-  }
-  .sky-donate-btn {
-    font-size: 18px;
-  }
-}
-@media only screen and (max-width:590px) {
-  .donate-btn, .learn-btn {
-  font-size: 18px;
-  }
-}
 @media only screen and (max-width:1169px) {
     .container {
     width: 1004px;
@@ -350,6 +317,8 @@ footer ul li {
 .sky-donate-btn {
     width: 265px;
 }
+.sky-text {
+    width: 53.5%}
 .sky-text p {
     font-size: 23px;
     line-height: 34px;
@@ -408,12 +377,14 @@ footer ul li {
 }
 .sky-text h4 {
     font-size: 27px;
-    padding: 12px 0 0;
+    padding: 38px 0 0;
 }
 .sky-text p {
     font-size: 17px;
     line-height: 21px;
 }
+.sky-text {
+    width: 51%}
 .sky-strip {
     padding-bottom: 20px;
     height: 128px;
@@ -497,11 +468,6 @@ footer ul li {
     height: 800px;
     margin: 30px 0;
 }
-@media only screen and (min-width: 1201px) {
-  .sky-text h4 {
-      padding: 30px 0 0;
-  }
-}
 @media only screen and (max-width:1169px) {
     .container {
     width: 1004px;
@@ -544,9 +510,11 @@ footer ul li {
 .sky-donate-btn {
     width: 265px;
 }
+.sky-text {
+    width: 53.5%}
 .sky-text p {
     font-size: 23px;
-    line-height: 23px;
+    line-height: 34px;
 }
 .sec2-bx1, .sec2-bx2, .sec2-bx3 {
     width: 320px;
@@ -573,7 +541,7 @@ footer ul li {
 .inner-cont {
     padding: 4px 15px 0;
 }
-}@media only screen and (max-width:1010px) {
+}@media only screen and (max-width:1003px) {
     .container {
     width: 760px;
     padding: 0 3px;
@@ -646,14 +614,20 @@ footer ul li {
     padding-top: 72px;
 }
 .seal-div p span, .sky-text p {
-    line-height: 24px;
+    line-height: 30px;
 }
 .sky-donate-btn {
     width: 205px;
 }
+.sky-text h4 {
+    font-size: 27px;
+    padding: 38px 0 0;
+}
 .sky-text p {
     font-size: 17px;
 }
+.sky-text {
+    width: 51%}
 .sky-strip {
     padding-bottom: 20px;
     height: 128px;
@@ -735,8 +709,12 @@ footer ul li {
     width: 100%;
     padding: 25px 0 0;
 }
+.donate-btn, .learn-btn {
+    width: 50%}
 .form-box, .seal-div, .sec1-left, .sec1-right, .sky-text {
-    width: 100%
+    width: 100%}
+.donate-btn {
+    padding: 0;
 }
 .btn-cls {
     padding: 30px 0 0;
@@ -840,6 +818,7 @@ div.content-container.index .banr-left {
     padding: 205px 0 0 70px;
 }
 div.content-container.index .banr-p1 {
+    float: left;
     width: 100%;
     color: #ffd200;
     font-weight: 700;
@@ -849,6 +828,7 @@ div.content-container.index .banr-p1 {
     line-height: 46px;
 }
 div.content-container.index .banr-p2 {
+    float: left;
     width: 100%;
     color: #e6e6e6;
     font-weight: 700;
@@ -871,9 +851,13 @@ div.content-container.index .banr-p4 {
     padding-bottom: 0px;
 }
 div.content-container.index .btn-cls {
-    width:100%;
-    padding: 10px;
-    margin-top: 20px;
+    float: left;
+    padding: 73px 0 0 30px;
+}
+div.content-container.index .donate-btn, div.content-container.index .learn-btn {
+    float: left;
+    max-width: 100%;
+    padding: 0 12px 0 0;
 }
 div.content-container.index .banr-right {
     float: left;
@@ -1302,6 +1286,9 @@ div.content-container.index .note {
 div.content-container.index .banr-p3 {
     font-size: 17px;
 }
+div.content-container.index .btn-cls {
+    padding: 50px 0 0;
+}
 div.content-container.index .sec1-p1 {
     font-size: 40px;
     line-height: 45px;
@@ -1396,6 +1383,14 @@ div.content-container.index .banr-left, div.content-container.index .banr-right 
     float: left;
     width: 100%;
     padding: 25px 0 0;
+}
+div.content-container.index .donate-btn, div.content-container.index .learn-btn {
+    width: 50%}
+div.content-container.index .donate-btn {
+    padding: 0;
+}
+div.content-container.index .btn-cls {
+    padding: 30px 0 0;
 }
 div.content-container.index .man {
     margin-left: 0;
@@ -2319,6 +2314,7 @@ div.content-container.contact .field-all {
     border: 1px solid #ced3eb;
     width: 100%;
     font-size: 14px;
+    /* color: #c3c3c3; */
     text-align: left;
     padding: 0 10px 0 45px;
     border-radius: 2px;
@@ -2452,6 +2448,7 @@ div.content-container.contact .field-textarea {
     border: 1px solid #ced3eb;
     width: 100%;
     font-size: 14px;
+/*     color: #c3c3c3; */
     text-align: left;
     padding: 10px 10px 10px 45px;
     border-radius: 2px;
