@@ -3,7 +3,10 @@
     <h4 class="banr-p3"><img src="/assets/images/note.png" class="note" alt="note"> join our email list</h4>
   </div>
   <div class="form-body">
-  	<form id="emailList" name="emailList">
+  	<form id="emailList" name="[TAPPS_EMAIL_LIST]" action="thank-you" netlify netlify-honeypot="overlords">
+    	<p class="hidden">
+        <label>Any Robot Overlords present? <input name="overlords"></label>
+      </p>
   	  <input type="email" name="email" placeholder="Your Email Address" class="in-sty" required >
       <input type="text" name="name" placeholder="Your Name" class="in-sty" required >
       <input type="image" src="/assets/images/signup.png" class="sign-up" id="submitEmailList">
