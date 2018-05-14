@@ -140,6 +140,7 @@ title: "Our Mission: Live Taps at Veterans' Funerals"
                   <div class="btm-name-txt-ststic">WALT BOENIG</div>
               </div>
           </div>
+<!--
           <div class="clearall"></div>
           <br>
           <h4 class="innerHeadingd btmBorder"><span>TAPPS</span> Team</h4>
@@ -154,6 +155,7 @@ title: "Our Mission: Live Taps at Veterans' Funerals"
                   <div class="btm-name-txt-ststic">JESSICA ZIMMERMAN</div>
               </div>
           </div>
+-->
       </div>
   </div>
 </div>
