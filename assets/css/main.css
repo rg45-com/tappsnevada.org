@@ -45,6 +45,11 @@ article.post h1{
 article.post h2{
   font-size: 1.8em;
 }
+article.post .text-xl {
+    font-size: 1.4em;
+    line-height: 1.4em;
+    margin-bottom: 25px;
+}
 .post-content {
   font-size: 13pt;
 }
@@ -63,6 +68,14 @@ article.post h2{
 }
 .post-meta time {
   font-size: 11pt;
+}
+.img-caption {
+    caption-side: bottom;
+    margin: 0;
+    padding-bottom: 1em;
+    font: 300 .8em "Lato",sans-serif;
+    color: #444;
+    line-height: 1.2em;
 }
 img {
     border: none;
@@ -2862,4 +2875,10 @@ div.content-container.mission .col3Box .border-box .msn-txt, div.content-contain
     margin-bottom: 50px;
     text-align: justify;
     font-size: 12px;
+}
+audio {
+  border: black 5px solid;
+  box-sizing: content-box;
+  padding: 8px;
+  margin: 15px 15px 15px 0px;
 }

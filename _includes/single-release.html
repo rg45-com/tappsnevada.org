@@ -1,0 +1,15 @@
+     <div class="expand-box"> 
+      <div class="row"> 
+        <div class="col-sm-3">
+          {% if post.thumbnail %}
+            <a href="{{ post.url }}"><img src="{{ post.thumbnail }}" class="img-responsive recent-thumb"></a>
+          {% endif %}
+        </div>
+        <div class="col-sm-9">
+          <div class="pls-txt-rgt">
+            <a href="{{ post.url }}"><h5>{{ post.title }}</h5></a>
+             <p>{{ post.content | remove: "##" | strip_html | truncate:200 }}</p>
+          </div>
+        </div>
+      </div>
+    </div>

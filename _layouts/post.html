@@ -18,8 +18,11 @@ layout: default
           </time>
         </p>
         <div class="post-content" itemprop="articleBody">
-          {% if page.thumbnail %}
-            <div class="post-img"><img src="{{ page.thumbnail }}" class="img-responsive"></div>
+          {% if page.thumbnail %} 
+            <div class="post-img"><img src="{{ page.thumbnail }}" class="img-responsive"><div class="img-caption">{{ page.thumb_caption }}</div></div>
+            {% if page.thumb_caption %} 
+              
+            {% endif %}
           {% endif %}
           {{ content }}
         </div>

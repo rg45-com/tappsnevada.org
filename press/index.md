@@ -13,7 +13,7 @@ title: "TAPPS Press and Events"
   	<div class="container">
       <div class="row">
         <p>Be the first to know the latest TAPPS news and events! And be sure to follow us on Facebook and Twitter!</p>
-        {% include recent-releases.html %}
+        {% include all-releases.html %}
         {% include videos.html %}
       </div>
     </div>
