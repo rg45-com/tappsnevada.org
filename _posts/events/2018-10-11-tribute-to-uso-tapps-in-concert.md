@@ -3,7 +3,7 @@ layout: post
 category: events
 title: Tribute to USO - TAPPS in Concert!
 date: 2018-10-11T17:28:29.303Z
-event_date: 2018-11-11T18:28:29.304Z
+event_date: 2018-11-11T22:00:00.000Z
 thumbnail: /assets/images/2018-10-11_tapps_uso.png
 ---
 We’re so excited to present our 3rd annual Veterans Day Concert at 2pm on Sunday, November 11th hosted by our dear friends at Community Lutheran Church (3720 E. Tropicana, Las Vegas, NV 89121).  
