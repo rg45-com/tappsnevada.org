@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Contact Us"
+nav_item: contact_us
 ---
 
 <div class="content-container contact">
@@ -13,12 +14,8 @@ title: "Contact Us"
   <div class="inner-sections">
   	<div class="container">
       	<div class="tab-div">
-          	<ul class="tab-list">
-              	<li class="show-desk show-tab"><a href="/contact/requestService.html">Request Service</a></li>
-              	<li class="active"><a href="/contact/">Contact Us</a></li>
-                  <li class="show-desk show-tab"><a href="/contact/outsideLasVegas.html">"Taps" outside Las Vegas</a></li>
-              </ul>
-              <div class="main-cont">
+          	{% include subnav_btns.html %}
+             <div class="main-cont">
               	<div class="top-sec">
                       <img src="/assets/images/contact-icon.png" alt="image" class="contact-icon">
                   	<h4>Contact TAPPS</h4>
@@ -84,10 +81,6 @@ title: "Contact Us"
                   </ul>
               </div>
          	</div>
-          <ul class="li-mob show-mob">
-          	<li><a href="/contact/requestService.html">Request Service</a></li>
-              <li><a href="/contact/outsideLasVegas.html">"Taps" outside Las Vegas</a></li>
-          </ul>
       </div>
   </div>
 </div>
