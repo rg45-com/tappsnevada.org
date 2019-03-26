@@ -7,7 +7,7 @@ title: "Donate & help honor Veterans with live Taps"
 <div class="content-container cart">
   <div class="inner-page-banr">
   	<div class="container">
-      	<h2>Shopping Cart <span>TAPPS</span></h2>
+      	<h2>Shopping Cart <span>T.A.P.P.S.</span></h2>
       </div>
   </div>
   
@@ -21,7 +21,7 @@ title: "Donate & help honor Veterans with live Taps"
     		<div class="top-icon-box">
         	<center><img src="/assets/images/header-top.png" class="header-icon"></center>
         	<div class="top-bx-inner">
-            	Welcome to the TAPPS Nevada web store. We've partnered with select vendors offering Veteran-related products.
+            	Welcome to the T.A.P.P.S. Nevada web store. We've partnered with select vendors offering Veteran-related products.
           </div>
         </div><!-- end top-icon-box -->
     	</div><!-- end row -->
@@ -87,7 +87,7 @@ title: "Donate & help honor Veterans with live Taps"
   
   <div class="donate-sec-3">
   	<div class="container">
-      	<h4 class="strip-heading">TAPPS NEVADA would appreciate <br><span>a simple financial contribution.</span></h4>
+      	<h4 class="strip-heading">T.A.P.P.S. NEVADA would appreciate <br><span>a simple financial contribution.</span></h4>
           <p>Please donate any amount you can here <br>(One time or reoccurring):</p>
           <form class="don-btn" name="PrePage" method="post" action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx"><input type="hidden" name="LinkId" value="e4819acd-b6eb-4f6d-97d6-ca9e2736b685"/><input type="image" src="/assets/images/sky-donate-btn.png"/></form>
       </div>

@@ -1,7 +1,7 @@
 ---
 layout: post
 category: events
-title: Tribute to USO - TAPPS in Concert!
+title: Tribute to USO - T.A.P.P.S. in Concert!
 date: 2018-10-11T17:28:29.303Z
 event_date: 2018-11-11T18:28:29.304Z
 thumbnail: /assets/images/2018-10-11_tapps_uso.png

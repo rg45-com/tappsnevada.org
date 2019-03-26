@@ -6,15 +6,15 @@ title: "Our Mission: Live Taps at Veterans' Funerals"
 <div class="content-container mission">
   <div class="inner-page-banr">
   	<div class="container">
-      	<h2><span>TAPPS</span> Mission</h2>
+      	<h2><span>T.A.P.P.S.</span> Mission</h2>
       </div>
   </div>
   <div class="inner-sections marg-foot">
   	<div class="container">
       	<div class="top-icon-box">
-          	<center><img src="/assets/images/header-top.png" class="header-icon"></center>
+          	<img src="/assets/images/header-top.png" class="header-icon center-block">
           	<div class="top-bx-inner">
-              	<span>TAPPS</span> was <span>founded</span> on <span>January 3, 2014</span> to fill a need in the Las Vegas area to have a live performance of "Taps" at Veteran's Funerals. Southern Nevada is home to one of the largest Veteran Populations in the country. Our Founders, Trumpeters, TAPPS Board, and volunteers are committed to honoring our Veterans and their families with each performance of "Taps".
+              	<span>T.A.P.P.S.</span> was <span>founded</span> on <span>January 3, 2014</span> to fill a need in the Las Vegas area to have a live performance of "Taps" at Veteran's Funerals. Southern Nevada is home to one of the largest Veteran Populations in the country. Our Founders, Trumpeters, T.A.P.P.S. Board, and volunteers are committed to honoring our Veterans and their families with each performance of "Taps".
               </div>
           </div>
           <h4 class="innerHeadingd btmBorder">FOUNDERS</h4>
@@ -53,7 +53,7 @@ title: "Our Mission: Live Taps at Veterans' Funerals"
       </div>
   <div class="trumpeters-sec">
   	<div class="container">
-      	<h4 class="innerHeadingd"><span>TAPPS</span> Trumpeters</h4>
+      	<h4 class="innerHeadingd"><span>T.A.P.P.S.</span> Trumpeters</h4>
           <div class="clearall"></div>
           <div class="col3Box">
           	<div class="border-box trumpeters-h">
@@ -61,7 +61,7 @@ title: "Our Mission: Live Taps at Veterans' Funerals"
                       <img src="/assets/images/daniel.jpg" class="f-profile">
                       <img src="/assets/images/bottom-arw.png" class="po-arw">
                   </div>
-                  <p class="msn-txt">Daniel Johnson has played music professionally since he was in High School. He received a Bachelor of Arts in Music in Education from Arizona State University and a Masters in Music in Jazz from UNLV. Dan has performed with the Phoenix Symphony, Calgary Philharmonic, and as music director for many years with Pro Arts Brass. Dan has shared the stage with many performers in all genres, including Diana Krall, Dizzy Gillespie, Alicia Keyes, and Rosemary Clooney. Daniel teaches at Nevada State College and continues to play professionally in the Las Vegas area in shows such as Jersey Boys, Steve Wynn's Showstoppers, and full time for 4 years with Human Nature. He is proud to be a part of TAPPS.</p>
+                  <p class="msn-txt">Daniel Johnson has played music professionally since he was in High School. He received a Bachelor of Arts in Music in Education from Arizona State University and a Masters in Music in Jazz from UNLV. Dan has performed with the Phoenix Symphony, Calgary Philharmonic, and as music director for many years with Pro Arts Brass. Dan has shared the stage with many performers in all genres, including Diana Krall, Dizzy Gillespie, Alicia Keyes, and Rosemary Clooney. Daniel teaches at Nevada State College and continues to play professionally in the Las Vegas area in shows such as Jersey Boys, Steve Wynn's Showstoppers, and full time for 4 years with Human Nature. He is proud to be a part of T.A.P.P.S..</p>
                   <div class="btm-name-txt-fixed">DANIEL JOHNSON</div>
               </div>
           </div>
@@ -82,7 +82,7 @@ title: "Our Mission: Live Taps at Veterans' Funerals"
                       <img src="/assets/images/lance.jpg" class="f-profile">
                       <img src="/assets/images/bottom-arw.png" class="po-arw">
                   </div>
-                  <p class="msn-txt">Originally from Phoenix, Lance Phelps earned two bachelor's degree in music (B.A., B.M.) from ASU and a graduate degree (M.M.) from U.N.L.V. Since relocating to Las Vegas he has performed with a variety of artists including Client Holmes, Frank Valli, Bobby Vinton, and Human Nature, but most frequently as a sub with The Rat Pack is Back. Further performance experience includes various musical theater pit orchestras (Cabaret, Oklahoma, etc.), cruise ship show bands, swing bands, jazz combos, jazz big bands, and salsa bands. Speaking of his involvement in TAPPS, Phelps says, "I'm grateful for the privilege of contributing to our veterans' Last Honors ceremonies. We all understand the emotional impact a live performance of 'Taps' has for the family and friends of the honored. This is an important service."</p>
+                  <p class="msn-txt">Originally from Phoenix, Lance Phelps earned two bachelor's degree in music (B.A., B.M.) from ASU and a graduate degree (M.M.) from U.N.L.V. Since relocating to Las Vegas he has performed with a variety of artists including Client Holmes, Frank Valli, Bobby Vinton, and Human Nature, but most frequently as a sub with The Rat Pack is Back. Further performance experience includes various musical theater pit orchestras (Cabaret, Oklahoma, etc.), cruise ship show bands, swing bands, jazz combos, jazz big bands, and salsa bands. Speaking of his involvement in T.A.P.P.S., Phelps says, "I'm grateful for the privilege of contributing to our veterans' Last Honors ceremonies. We all understand the emotional impact a live performance of 'Taps' has for the family and friends of the honored. This is an important service."</p>
                   <div class="btm-name-txt-fixed">LANCE PHELPS</div>
               </div>
           </div>
@@ -90,7 +90,7 @@ title: "Our Mission: Live Taps at Veterans' Funerals"
   </div>
   <div class="clearall"></div>
   	<div class="container">
-      	<h4 class="innerHeadingd btmBorder"><span>TAPPS</span> Board</h4>
+      	<h4 class="innerHeadingd btmBorder"><span>T.A.P.P.S.</span> Board</h4>
           <div class="clearall"></div>
       	<div class="col3Box">
           	<div class="border-box">
@@ -98,7 +98,7 @@ title: "Our Mission: Live Taps at Veterans' Funerals"
                       <img src="/assets/images/julie.jpg" class="f-profile">
                       <img src="/assets/images/bottom-arw.png" class="po-arw">
                   </div>
-                  <p class="msn-txt">Julie Durk is the Treasurer of TAPPS.  Julie has lived in Las Vegas for over 45 years and has worked in accounting and finance for over 25 years.  She was Controller for a large Las Vegas real estate firm for approximately 20 years. Julie is now semi-retired and works only three days a week.  Julie is also a proud Mom of three and Grandmother of four.  Her oldest son Joseph Durk is one of the founders of TAPPS.</p>
+                  <p class="msn-txt">Julie Durk is the Treasurer of T.A.P.P.S..  Julie has lived in Las Vegas for over 45 years and has worked in accounting and finance for over 25 years.  She was Controller for a large Las Vegas real estate firm for approximately 20 years. Julie is now semi-retired and works only three days a week.  Julie is also a proud Mom of three and Grandmother of four.  Her oldest son Joseph Durk is one of the founders of T.A.P.P.S..</p>
                   <div class="btm-name-txt-ststic">JULIE DURK</div>
               </div>
               <div class="border-box">
@@ -106,7 +106,7 @@ title: "Our Mission: Live Taps at Veterans' Funerals"
                       <img src="/assets/images/nicole.jpg" class="f-profile">
                       <img src="/assets/images/bottom-arw.png" class="po-arw">
                   </div>
-                  <p class="msn-txt">Nicole Cordova is responsible for Marketing, Advertising, and Social Media for TAPPS and works for a major Nevada Gaming Company in Marketing. A resident of the Las Vegas area for over twenty years, Nicole is a proud Army Brat and the daughter of two Army Veterans. Her father, the late Staff Sergeant Louis Cordova, served in the Korean and Vietnam Wars as a Combat Medic and is a recipient of the Purple Heart and Bronze Star. Her mother, Retired Master Sergeant Carla Cordova, served in the Women’s Army Core and Medical Core as a Nurse. She is a recipient of the Legion of Merit and a charter member of the Women in Military Service for America Memorial in Washington, D.C. </p>
+                  <p class="msn-txt">Nicole Cordova is responsible for Marketing, Advertising, and Social Media for T.A.P.P.S. and works for a major Nevada Gaming Company in Marketing. A resident of the Las Vegas area for over twenty years, Nicole is a proud Army Brat and the daughter of two Army Veterans. Her father, the late Staff Sergeant Louis Cordova, served in the Korean and Vietnam Wars as a Combat Medic and is a recipient of the Purple Heart and Bronze Star. Her mother, Retired Master Sergeant Carla Cordova, served in the Women’s Army Core and Medical Core as a Nurse. She is a recipient of the Legion of Merit and a charter member of the Women in Military Service for America Memorial in Washington, D.C. </p>
                   <div class="btm-name-txt-ststic">NICOLE CORDOVA</div>
               </div>
           </div>
@@ -124,7 +124,7 @@ title: "Our Mission: Live Taps at Veterans' Funerals"
                       <img src="/assets/images/deborah.jpg" class="f-profile">
                       <img src="/assets/images/bottom-arw.png" class="po-arw">
                   </div>
-                  <p class="msn-txt">Deborah Carpi is a freelance percussionist, educator, and lifelong resident of Las Vegas. She graduated from UNLV with a Bachelors in Music and Illinois State University with a Masters in Music. Deborah currently teaches marching percussion at Coronado High School. She serves as Secretary for TAPPS and is the proud Granddaughter of two World War II veterans.</p>
+                  <p class="msn-txt">Deborah Carpi is a freelance percussionist, educator, and lifelong resident of Las Vegas. She graduated from UNLV with a Bachelors in Music and Illinois State University with a Masters in Music. Deborah currently teaches marching percussion at Coronado High School. She serves as Secretary for T.A.P.P.S. and is the proud Granddaughter of two World War II veterans.</p>
                   <div class="btm-name-txt-ststic">DEBORAH CARPI</div>
               </div>
           </div>
@@ -143,7 +143,7 @@ title: "Our Mission: Live Taps at Veterans' Funerals"
 <!--
           <div class="clearall"></div>
           <br>
-          <h4 class="innerHeadingd btmBorder"><span>TAPPS</span> Team</h4>
+          <h4 class="innerHeadingd btmBorder"><span>T.A.P.P.S.</span> Team</h4>
           <div class="clearall"></div>
           <div class="col3Box">
           	<div class="border-box">
@@ -151,7 +151,7 @@ title: "Our Mission: Live Taps at Veterans' Funerals"
                       <img src="/assets/images/jessica.jpg" class="f-profile">
                       <img src="/assets/images/bottom-arw.png" class="po-arw">
                   </div>
-                  <p class="msn-txt">Jessica Zimmerman is the Social Media Manager for Tapps and has lived in Las Vegas for over twenty years. She holds a Bachelor’s degree in Communications and a Master’s degree in Journalism, both from UNLV. She currently works at a local public relations firm and freelances for a company utilizing her editing and proofreading skills. She’s a proud wife to her husband James, and loves her biggest title: Mom of two, Zane and Zia.</p>
+                  <p class="msn-txt">Jessica Zimmerman is the Social Media Manager for T.A.P.P.S. and has lived in Las Vegas for over twenty years. She holds a Bachelor’s degree in Communications and a Master’s degree in Journalism, both from UNLV. She currently works at a local public relations firm and freelances for a company utilizing her editing and proofreading skills. She’s a proud wife to her husband James, and loves her biggest title: Mom of two, Zane and Zia.</p>
                   <div class="btm-name-txt-ststic">JESSICA ZIMMERMAN</div>
               </div>
           </div>

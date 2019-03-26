@@ -15,9 +15,9 @@ thumbnail: null
 
 LAS VEGAS (KSNV News3LV) - The playing of Taps at military funerals is the final salute to America's bravest. However, the number of trained musicians capable of performing the tribute is dwindling across the country – but now, a group of professional musicians in Las Vegas is bridging the musical gap.
 
-The non-profit organization appropriately named TAPPS (Trumpeters Alliance to Perform Patriotic Services) perform graveside services all over Southern Nevada at no cost to the families.
+The non-profit organization appropriately named T.A.P.P.S. (Trumpeters Alliance to Perform Patriotic Services) perform graveside services all over Southern Nevada at no cost to the families.
 
-"To this day, it still gets me every time," said Gary Cordell, one of the founding members of TAPPS. "There's 24 notes in Taps and we describe it as the 24 most important notes you'll ever play."
+"To this day, it still gets me every time," said Gary Cordell, one of the founding members of T.A.P.P.S.. "There's 24 notes in Taps and we describe it as the 24 most important notes you'll ever play."
 
 The group recently performed at a memorial service for Laura Taylor, whose father missed out on a formal military send-off when he died 27 years ago.
 
@@ -25,7 +25,7 @@ The group recently performed at a memorial service for Laura Taylor, whose fathe
 
 "It really brings him back to me and I just loved him so much," said Taylor.
 
-The military no longer has the resources to provide a live bugler at each military funeral, so it often resorts to electronic recordings of Taps instead. That's where the TAPPS team of professional trumpeters steps in.
+The military no longer has the resources to provide a live bugler at each military funeral, so it often resorts to electronic recordings of Taps instead. That's where the T.A.P.P.S. team of professional trumpeters steps in.
 
 "We formed this organization for the specific purpose of providing a live bugler to fallen military and first responders," said Cordell. "It means a lot to be able to give that to a family and that's at the heart of what we do."
 

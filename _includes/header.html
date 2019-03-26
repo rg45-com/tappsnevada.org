@@ -1,33 +1,59 @@
 <div class="top-bar">
 	<div class="container">
     <ul class="top-ul">
-        <li>TAPPS Nevada</li>
-        <li><a href="https://www.facebook.com/TAPPSNevada" target="_blank"><img src="/assets/images/f.jpg" class="f" alt="facebook"></a></li>
-        <li><a href="https://twitter.com/tappsnevada" target="_blank"><img src="/assets/images/t.jpg" class="t" alt="twitter"></a></li>
+        <li>T.A.P.P.S. Nevada</li>
+        <li><a href="https://www.facebook.com/{{ site.fb_username }}" target="_blank"><img src="/assets/images/fb24.png" class="f" alt="facebook"></a></li>
+        <li><a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><img src="/assets/images/tw24.png" class="t" alt="twitter"></a></li>
+        <li><a href="https://www.instagram.com/{{ site.instagram_username }}" target="_blank"><img src="/assets/images/in24.png" class="t" alt="instagram"></a></li>
     </ul>
     <div class="menu-bar">
     	<a href="/" class="logo-a"><img src="/assets/images/logo.jpg" class="logo" alt="logo"></a>
         <div class="light-menu show-mob">
         	<a href="javascript:void(0)" class="smobitrigger mob-mnu"> <img src="/assets/images/mob-menu-btn.png"> </a>
             <ul class="mobimenu">
-                <li><a href="/mission.html">Mission</a></li>
                 <li><a href="/donate.html">Donate</a></li>
-                <li><a href="/press/">Press</a></li>
+                <li><a href="/mission.html">About</a></li>
+                <li><a href="/press/">News</a></li>
+                <li><a href="/events/">Events</a></li>
                 <li><a href="/contact/">Contact</a></li>
-                <li><a href="/contact/requestService.html">Request TAPPS Service</a></li>
-                <li><a href="/wall.html">Wall</a></li>
+                <li><a href="/contact/requestService.html">Request T.A.P.P.S. Service</a></li>
                 <li><a href="/calendar.html">Calendar</a></li>
+                <li><a href="/contact/outsideLasVegas.html">"Taps" Outside Las Vegas</a></li>
+                <li><a href="/contact/other_veteran_services.html">Other Veteran Services</a></li>
+                <li><a href="/wall.html">Wall</a></li>
             </ul>
         </div>
         <div class="top-full-menu show-desk show-tab">
-            <ul class="desk-menu">
-                <li><a href="/mission.html">Mission</a></li>
-                <li><a href="/donate.html">Donate</a></li>
-                <li><a href="/press/">Press</a></li>
-                <li><a href="/contact/">Contact</a></li>
-                <li><a href="/contact/requestService.html">Request TAPPS Service</a></li>
-                <li><a href="/wall.html">Wall</a></li>
-                <li><a href="/calendar.html">Calendar</a></li>
+            <ul class="desk-menu nav">
+              <li><a href="/mission.html">About</a></li>
+
+              <li role="presentation" class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                  Press <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu nav nav-pills nav-stacked">
+                  <li><a href="/press">News</a></li>
+                  <li><a href="/events">Events</a></li>
+                </ul>
+              </li>
+              
+              <li><a href="/contact/">Contact</a></li>
+              
+              <li role="presentation" class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                  Request T.A.P.P.S. Service <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu nav nav-pills nav-stacked">
+                  <li><a href="/contact/requestService.html">Request T.A.P.P.S. Service</a></li>
+                  <li><a href="/calendar.html">Calendar</a></li>
+                  <li><a href="/contact/outsideLasVegas.html">"Taps" Outside Las Vegas</a></li>
+                  <li><a href="/contact/other_veteran_services.html">Other Veteran Services</a></li>
+                </ul>
+              </li>
+              
+              <li><a href="/wall.html">Wall</a></li>
+              
+              <li><a href="/donate.html">Donate</a></li>
             </ul>
         </div>
     </div>
