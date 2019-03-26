@@ -101,14 +101,14 @@ title: "Our Mission: Live Taps at Veterans' Funerals"
                   <p class="msn-txt">Julie Durk is the Treasurer of T.A.P.P.S..  Julie has lived in Las Vegas for over 45 years and has worked in accounting and finance for over 25 years.  She was Controller for a large Las Vegas real estate firm for approximately 20 years. Julie is now semi-retired and works only three days a week.  Julie is also a proud Mom of three and Grandmother of four.  Her oldest son Joseph Durk is one of the founders of T.A.P.P.S..</p>
                   <div class="btm-name-txt-ststic">JULIE DURK</div>
               </div>
-              <div class="border-box">
+              {%- comment -%} <div class="border-box">
                   <div class="PicBoxSpl">
                       <img src="/assets/images/nicole.jpg" class="f-profile">
                       <img src="/assets/images/bottom-arw.png" class="po-arw">
                   </div>
                   <p class="msn-txt">Nicole Cordova is responsible for Marketing, Advertising, and Social Media for T.A.P.P.S. and works for a major Nevada Gaming Company in Marketing. A resident of the Las Vegas area for over twenty years, Nicole is a proud Army Brat and the daughter of two Army Veterans. Her father, the late Staff Sergeant Louis Cordova, served in the Korean and Vietnam Wars as a Combat Medic and is a recipient of the Purple Heart and Bronze Star. Her mother, Retired Master Sergeant Carla Cordova, served in the Women’s Army Core and Medical Core as a Nurse. She is a recipient of the Legion of Merit and a charter member of the Women in Military Service for America Memorial in Washington, D.C. </p>
                   <div class="btm-name-txt-ststic">NICOLE CORDOVA</div>
-              </div>
+              </div> {%- endcomment -%}
           </div>
           <div class="col3Box Mid">
           	<div class="border-box">
