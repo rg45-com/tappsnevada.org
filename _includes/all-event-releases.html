@@ -1,0 +1,10 @@
+<div class="bdr-heading"><span>ALL EVENTS</span></div>
+
+
+  {% for post in site.categories.events %}
+    {% if post.title == page.title %}
+      {% continue %}
+    {% else %}
+      {% include single-release.html %}
+    {% endif %}
+  {% endfor %}

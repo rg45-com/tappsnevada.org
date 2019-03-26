@@ -1,0 +1,36 @@
+<div class="top-bar">
+	<div class="container">
+    <ul class="top-ul">
+        <li>TAPPS Nevada</li>
+        <li><a href="https://www.facebook.com/{{ site.fb_username }}" target="_blank"><img src="/assets/images/fb24.png" class="f" alt="facebook"></a></li>
+        <li><a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><img src="/assets/images/tw24.png" class="t" alt="twitter"></a></li>
+        <li><a href="https://www.instagram.com/{{ site.instagram_username }}" target="_blank"><img src="/assets/images/in24.png" class="t" alt="instagram"></a></li>
+    </ul>
+    <div class="menu-bar">
+    	<a href="/" class="logo-a"><img src="/assets/images/logo.jpg" class="logo" alt="logo"></a>
+        <div class="light-menu show-mob">
+        	<a href="javascript:void(0)" class="smobitrigger mob-mnu"> <img src="/assets/images/mob-menu-btn.png"> </a>
+            <ul class="mobimenu">
+                <li><a href="/mission.html">Mission</a></li>
+                <li><a href="/donate.html">Donate</a></li>
+                <li><a href="/press/">Press</a></li>
+                <li><a href="/contact/">Contact</a></li>
+                <li><a href="/contact/requestService.html">Request TAPPS Service</a></li>
+                <li><a href="/wall.html">Wall</a></li>
+                <li><a href="/calendar.html">Calendar</a></li>
+            </ul>
+        </div>
+        <div class="top-full-menu show-desk show-tab">
+            <ul class="desk-menu">
+                <li><a href="/mission.html">Mission</a></li>
+                <li><a href="/donate.html">Donate</a></li>
+                <li><a href="/press/">Press</a></li>
+                <li><a href="/contact/">Contact</a></li>
+                <li><a href="/contact/requestService.html">Request TAPPS Service</a></li>
+                <li><a href="/wall.html">Wall</a></li>
+                <li><a href="/calendar.html">Calendar</a></li>
+            </ul>
+        </div>
+    </div>
+   </div>
+</div>

@@ -1,0 +1,8 @@
+<div class="bdr-heading"><span>ALL PRESS RELEASES</span></div>
+{% for post in site.categories.press %}
+  {% if post.title == page.title %}
+    {% continue %}
+  {% else %}
+     {% include single-release.html %}
+  {% endif %}
+{% endfor %}
