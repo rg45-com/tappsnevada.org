@@ -83,7 +83,7 @@ layout: default
                 <img src="/assets/images/folded_flag.jpg" class="img-responsive center-block" alt="Folded Flag">
             </div>
           </div>
-        </div><!-- /.row -->
+          </div><!-- /.row -->
       </div><!-- /.container -->
   </div><!-- /.sec1 -->
 
@@ -94,78 +94,47 @@ layout: default
   
   <div class="sec2">
   	<div class="container">
-      	<div class="sec2-bx1">
-          	<div class="top-part">
-              </div>
-              <div class="inner-cont">
-              	<div class="cont-1">
-                  <p class="f22">T.A.P.P.S. Events</p>
-                </div>
-                <div class="cont-1">
-                	{% for post in site.categories['events'] limit:2 %}
-                    {% if forloop.last == true %}
-                      <div class="index_press_post last_post">
-                        <a href="{{ post.url }}">
-                          <p class="title">{{ post.event_date | date: "%b %d, %Y" }} - {{ post.title }}</p>
-                          <div class="meta"><p>{{ post.content | truncate:100 | strip_html | remove: "##" }}</p></div>
-                        </a>
-                      </div>
-                    {% else %}
-                      <div class="index_press_post">
-                        <a href="{{ post.url }}">
-                          <p class="title">{{ post.event_date | date: "%b %d, %Y" }} - {{ post.title }}</p>
-                          <div class="meta"><p>{{ post.content | truncate:100 | strip_html | remove: "##" }}</p></div>
-                        </a>
-                      </div>
-                    {% endif %}
-                  {% endfor %}
-                </div>
+      	<div class="row row-grid">
+
+          <div class="col-lg-8">
+            <h4 class="sec1-p1">Our <span>Story</span></h4>
+            <img src="/assets/images/music.jpg" class="music" alt="music">
+            <div class="row">
+              <div class="col-lg-8">
                 
-                <div class="cont-1">
-                  <p class="f22">T.A.P.P.S. Press Releases</p>
-                </div>
-                <div class="cont-1">
-                	{% for post in site.categories['press'] limit:1 %}
-                	  {% if forloop.last == true %}
-                        <div class="index_press_post last_post">
-                          <a href="{{ post.url }}">
-                            <p class="title">{{ post.title | truncate:70 }}</p>
-                            <div class="meta"><p>{{ post.content | strip_html | truncate:100 }}</p></div>
-                          </a>
-                        </div>
-                      {% else %}
-                        <div class="index_press_post">
-                          <a href="{{ post.url }}">
-                            <p class="title">{{ post.title | truncate:70 }}</p>
-                            <div class="meta"><p>{{ post.content | strip_html | truncate:100 }}</p></div>
-                          </a>
-                        </div>
-                    {% endif %}
-                  {% endfor %}
-                </div>
-  
-                  <div class="cont-1 no-brd">
-                      <h4><a style="color: #ffd200;" href="/press/">Read more...</a></h4>
-                  </div>
-  
+                <p style="text-align: left;" class="sec1-p2">On December 3rd, 2012, Leonard William Carpi was laid to rest in Las Vegas, NV.  Leonard was a B-29 Pilot during WWII serving in the 9th Bomb Group, 20th Air Force out of Tinian and eventually flying missions piloting the “Tokyo KO” plane over Japan.  The family, wishing to have Leonard honored with a live performance of ‘Echo Taps’, asked his grandson-in-law Larry Ransom and friend Gary Cordell, both T.A.P.P.S. cofounders, to perform the call at his service.  After the service, the Air Force Honor Guard Commander expressed to Larry and Gary that he wished every veteran could be honored in such a way.  This sentiment was the inspiration for what we today call T.A.P.P.S. or the Trumpeters Alliance to Perform Patriotic Services.  Larry and Gary collaborated with friend and colleague Joe Durk and in January of 2014, T.A.P.P.S. was founded to provide professional-quality live trumpeters to perform ‘Taps’ at no cost to military families in Southern Nevada.  We remain dedicated to this mission today.
+                </p>
               </div>
-          </div>
-          <div class="sec2-bx2">
-          	<div class="top-part">
-              	<h3>Memorial Wall</h3>
+              <div class="col-lg-4">
+                <img src="/assets/images/carpi.jpg" alt="Leonard William Carpi" class="img-responsive center-block" style="padding-top:27px;">
+              </div>
             </div>
-            <script id="wall-template" type="text/x-handlebars-template">
-              {% raw %}
-                <p class="sec2-p1">{{cells.NAMES}}</p>
-              {% endraw %}
-            </script>
-            <div id="wall_list" class="inner-cont">
-              <p class="sec2-p1">LEONARD WILLIAM CARPI</p>
-            </div>
-            <div class="clearfix"></div>
+            
           </div>
-      </div>
-  </div>
+
+          <div class="col-lg-4">
+            <div class="sec2-bx2">
+            	<div class="top-part">
+                	<h3>Memorial Wall</h3>
+              </div>
+              <script id="wall-template" type="text/x-handlebars-template">
+                {% raw %}
+                  <p class="sec2-p1">{{cells.NAMES}}</p>
+                {% endraw %}
+              </script>
+              <div id="wall_list" class="inner-cont">
+                <p class="sec2-p1">LEONARD WILLIAM CARPI</p>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+
+
+
+        </div><!-- /.row -->
+
+      </div><!-- /.container -->
+  </div><!-- /.sec2 -->
   
   <!--
   <div class="sec3">
