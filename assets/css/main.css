@@ -2351,17 +2351,17 @@ div.content-container.contact .tab-head {
     text-transform: uppercase;
 }
 div.content-container.contact .frm-cont {
-    float: left;
+    /* float: left; */
     width: 100%;
     margin-bottom: 40px;
 }
 div.content-container.contact .frm-elements {
-    float: left;
+    /* float: left; */
     width: 100%;
     margin-bottom: 10px;
 }
 div.content-container.contact .frm-elements label {
-    float: left;
+    /* float: left; */
     color: #575757;
     font-size: 15px;
     text-align: left;
@@ -2373,7 +2373,7 @@ div.content-container.contact .frm-elements label {
 }
 div.content-container.contact .input-box {
     width: 100%;
-    float: left;
+    /* float: left; */
     position: relative;
 }
 div.content-container.contact .fldicon {
