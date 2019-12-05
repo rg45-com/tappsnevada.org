@@ -41,6 +41,23 @@ title: "Donate & help honor Veterans with live Taps"
               <p class="donate-p2">T.A.P.P.S. has honored <span id="vets_helped_count"></span> Veterans.  Over 95% of your donation will go to honor their service. How can you help support T.A.P.P.S. Nevada?</p>
               <div class="donate-box">
                 <div class="row">
+                  <div class="col-sm-12">
+                    <div class="card card-price">
+                      <div class="card-body">
+                        <div class="price" style="line-height: 1em;">STAR WARS TICKETS $15.75/each</div>
+                        <div class="lead">Purchase <b>Star Wars: The Rise of Skywalker</b> Fundraiser tickets</div>
+                        <ul class="details">
+                          <li>Donations are tax deductible.</li>
+                        </ul>
+                        <form name="PrePage" method="post" action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx">
+                          <input type="hidden" name="LinkId" value="e4819acd-b6eb-4f6d-97d6-ca9e2736b685"/>
+                          <input class="btn btn-primary btn-lg btn-block buy-now" style="font-size: 24px;" type="submit" name="donate_btn" value="BUY TICKETS">
+                        </form>
+                      </div>
+                    </div>
+                  </div><!-- /.col -->
+                </div>
+                <div class="row">
 
 
                   <div class="col-sm-4 col-sm-push-4">

@@ -6,7 +6,7 @@ date: 2019-12-04T12:00:00-07:00
 event_date: 2019-12-21T20:17:20-08:00
 thumbnail: /assets/images/riseofskywalker.jpg
 hidethumb: 1
-devstatus: 1
+#devstatus: 1
 ---
 
 <div class="row">
