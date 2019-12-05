@@ -124,15 +124,13 @@ devstatus: 1
             </div>
   
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="contactpref" id="contactpref1" value="YES" checked>
-              <label class="form-check-label" for="contactpref1">
-                Yes, I agree to be contacted by COUNTRY Financial to discuss my insurance and financial service needs.
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="contactpref" id="contactpref1" value="Contact me" checked> Yes, I agree to be contacted by COUNTRY Financial to discuss my insurance and financial service needs.
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="contactpref" id="contactpref2" value="NO">
-              <label class="form-check-label" for="contactpref2">
-                Please only contact me in the event I am the winner.
+              <label class="form-check-label" >
+                <input class="form-check-input" type="radio" name="contactpref" id="contactpref2" value="No Contact"> Please only contact me in the event I am the winner.
               </label>
             </div>
             
