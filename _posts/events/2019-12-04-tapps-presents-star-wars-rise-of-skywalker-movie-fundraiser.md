@@ -53,12 +53,20 @@ devstatus: 1
 <div class="row">
   <div class="col-12">
     <div class="content-container contact">
-      <div class="main-cont">
-        <h4 class="tab-head">Register for Tickets</h4>
-        <form class="frm-cont" accept-charset="utf-8" netlify-honeypot="overlords" name="[TAPPS_SKYWALKER]" action="/donate" netlify>
+    <h4 class="tab-head" style="margin-bottom: 10px !important">Reserve your Tickets</h4>
+      <div class="main-cont" style="padding-top: 10px !important">
+        
+        <form class="frm-cont" style="margin-bottom: 0px !important;" accept-charset="utf-8" netlify-honeypot="overlords" name="[TAPPS_SKYWALKER]" action="/donate" netlify>
           <p class="hidden">
             <label>Any Robot Overlords present? <input name="overlords"></label>
           </p>
+          <div class="frm-elements">
+                <label>Number of movie tickets</label>
+                <div class="input-box">
+                    <img src="/assets/images/frm9.jpg" alt="icon" class="fldicon">
+                    <input value="" type="text" name="tickets" class="field-all" placeholder="How many tickets?">
+                </div>
+            </div>
           <div class="frm-elements">
                 <label>First Name</label>
                 <div class="input-box">
@@ -138,8 +146,9 @@ devstatus: 1
               <div data-netlify-recaptcha="true"></div>
             </div>
   
-            <input type="image" src="/assets/images/sub-btn.png" class="sub-btn">
+            <input type="image" src="/assets/images/sub-btn.png" class="sub-btn" style="float: none !important">
         </form>
+        <small>Please note: Tickets are first-come first-serve and there are a limited number of tickets available.  Purchase your tickets through our donation form. </small>
       </div>
     </div>
 
