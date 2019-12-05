@@ -27,9 +27,11 @@ devstatus: 1
       <b>Show Time:</b> 5:20pm
     </p>
 
+
+    <h2 style="color:#282828; font-weight: 700; font-size: 30px; margin: 20px 0px 10px;">LAS VEGAS GOLDEN KNIGHTS TICKET GIVEAWAY</h2>
     <div style="padding: 10px; margin-top: 15px; background: #f3fcff; border: 1px solid #bfbfbf;">
       <p>
-        In addition to supporting a great local Las Vegas charity while seeing a what is expected to be a fantastic conclusion to the Star Wars sequel trilogy, your donation enters you into a drawing for a chance to win Golden Knight tickets, provided by COUNTRY Financial®! 
+        In addition to supporting a great local Las Vegas charity while seeing a what is expected to be a fantastic conclusion to the Star Wars sequel trilogy, <strong>your donation enters you into a drawing for a chance to win Golden Knights tickets</strong>, provided by COUNTRY Financial®! 
       </p>
       <p>
         <b>Date:</b> Saturday, December 28, 2019<br/>
@@ -53,7 +55,7 @@ devstatus: 1
 <div class="row">
   <div class="col-12">
     <div class="content-container contact">
-    <h4 class="tab-head" style="margin-bottom: 10px !important">Reserve your Tickets</h4>
+    <h4 class="tab-head" style="margin-bottom: 10px !important">Reserve your Star Wars Tickets</h4>
       <div class="main-cont" style="padding-top: 10px !important">
         
         <form class="frm-cont" style="margin-bottom: 0px !important;" accept-charset="utf-8" netlify-honeypot="overlords" name="[TAPPS_SKYWALKER]" action="/donate" netlify>
@@ -61,10 +63,20 @@ devstatus: 1
             <label>Any Robot Overlords present? <input name="overlords"></label>
           </p>
           <div class="frm-elements">
-                <label>Number of movie tickets</label>
                 <div class="input-box">
-                    <img src="/assets/images/frm9.jpg" alt="icon" class="fldicon">
-                    <input value="" type="text" name="tickets" class="field-all" placeholder="How many tickets?">
+                    <label>Number of movie tickets:
+                      <select name="tickets">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                      </select></label>
                 </div>
             </div>
           <div class="frm-elements">
@@ -145,10 +157,16 @@ devstatus: 1
             <div class="frm-elements">
               <div data-netlify-recaptcha="true"></div>
             </div>
-  
+            
+            <p>Please note: Tickets are first-come first-serve and there are a limited number of tickets available.<br/>
+              <b>You will be directed to pay for your tickets through our donation form.</b>
+            </p>
+
             <input type="image" src="/assets/images/sub-btn.png" class="sub-btn" style="float: none !important">
+
+            
         </form>
-        <small>Please note: Tickets are first-come first-serve and there are a limited number of tickets available.  Purchase your tickets through our donation form. </small>
+        
       </div>
     </div>
 
