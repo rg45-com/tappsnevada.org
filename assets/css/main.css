@@ -994,6 +994,21 @@ div.content-container.index .sign-up {
   font-size: 24px;
   padding-top:10px;
 }
+
+.white-strip {
+  width: 100%;
+  background: black url("/assets/images/starsbg.jpg") center center/cover no-repeat;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  padding: 15px 0px;
+}
+.white-strip p {
+color:white;
+font-size: 24px;
+padding-top:10px;
+}
+
 div.content-container.index .strip-box1 {
     float: left;
     width: 31.7%;
