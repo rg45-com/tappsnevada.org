@@ -39,7 +39,15 @@ title: "Donate & help honor Veterans with live Taps"
           <div class="donate-sec1">
           	<h4 class="donate-p1"><span>DONATE Today.</span> We need your help. There are many ways to contribute!</h4>
               <p class="donate-p2">T.A.P.P.S. has honored <span id="vets_helped_count"></span> Veterans.  Over 95% of your donation will go to honor their service. How can you help support T.A.P.P.S. Nevada?</p>
-              <div class="donate-box">
+              
+            <div class="donate-box">
+
+              {%- comment -%} 
+              ####
+              # This special section is a one-off event donation area.  Set up a corresponding donation page with
+              # Authorize.net if desired and adjust the LinkId value in the form below.
+              #
+              ###
                 <div class="row">
                   <div class="col-sm-12">
                     <div class="card card-price">
@@ -56,10 +64,11 @@ title: "Donate & help honor Veterans with live Taps"
                       </div>
                     </div>
                   </div><!-- /.col -->
-                </div>
+                </div><!-- /.row -->
+                {%- endcomment -%}
+
                 <div class="row">
-
-
+                
                   <div class="col-sm-4 col-sm-push-4">
                     <div class="card card-price">
                       <div class="card-body">

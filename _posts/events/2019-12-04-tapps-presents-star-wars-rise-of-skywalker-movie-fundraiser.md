@@ -57,7 +57,9 @@ hidethumb: 1
     <div class="content-container contact">
     <h4 class="tab-head" style="margin-bottom: 10px !important">Reserve your Star Wars Tickets</h4>
       <div class="main-cont" style="padding-top: 10px !important">
-        
+        <p>Thank you to all who watched Star Wars: The Rise of Skywalker and supported T.A.P.P.S. -- please join us at our next event!</p>
+        {%- comment -%}
+        ### This event has passed
         <form class="frm-cont" style="margin-bottom: 0px !important;" accept-charset="utf-8" netlify-honeypot="overlords" name="[TAPPS_SKYWALKER]" action="/donate" netlify>
           <p class="hidden">
             <label>Any Robot Overlords present? <input name="overlords"></label>
@@ -166,6 +168,7 @@ hidethumb: 1
 
             
         </form>
+        {%- endcomment -%}
         
       </div>
     </div>
