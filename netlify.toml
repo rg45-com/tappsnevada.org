@@ -1,0 +1,7 @@
+[[redirects]]
+  from = "/contact/other_veteran_services.html"
+  to = "/contact/requestService.html"
+
+[[redirects]]
+  from = "/contact/other_veteran_services"
+  to = "/contact/requestService.html"
